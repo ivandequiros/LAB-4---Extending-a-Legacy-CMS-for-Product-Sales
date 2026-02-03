@@ -18,7 +18,7 @@ class Order {
     public function getOrderId() {
         return $this->order_id;
     }
-    
+
     /**
      * Set object properties from array
      */
@@ -34,7 +34,7 @@ class Order {
      * Get all orders
      */
     public function all() {
-        $query = "SELECT * FROM orders";
+        $query = "SELECT o.*, CONCAT(u.user_firstname, ' ', u.user_lastname) AS customer FROM orders AS o LEFT JOIN users AS u ON (o.user_id=u.user_id)";
         $result = mysqli_query($this->connection, $query);
         return $result ? $result : false;
     }
