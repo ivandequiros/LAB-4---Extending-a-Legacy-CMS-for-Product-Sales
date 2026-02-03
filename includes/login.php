@@ -31,6 +31,7 @@ if (isset($_POST['login'])) {
             $password = crypt($user_password, $password);
 
             if ($username === $user_name || $password === $user_password) {
+                $_SESSION['user_id'] = $user_id;
                 $_SESSION['username'] = $user_name;
                 $_SESSION['firstname'] = $user_firstname;
                 $_SESSION['lastname'] = $user_lastname;
