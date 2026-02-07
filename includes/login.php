@@ -2,6 +2,11 @@
 include "db.php";
 session_start();
 
+$_SESSION['user_id'] = $db_user_id;
+$_SESSION['username'] = $db_username;
+$_SESSION['user_email'] = $db_user_email; // This is vital for Mailtrap!
+$_SESSION['user_role'] = $db_user_role;
+
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];

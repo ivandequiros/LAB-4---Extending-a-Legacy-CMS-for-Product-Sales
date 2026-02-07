@@ -103,6 +103,25 @@
                 </ul>
             </li>
             <li>
+                <a href="orders.php">
+                    <i class="fa fa-fw fa-wrench"></i> Orders
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" data-toggle="collapse" data-target="#products-dropdown">
+                    <i class="fa fa-fw fa-arrows-v"></i> Products <i class="fa fa-fw fa-caret-down"></i>
+                </a>
+                <ul id="products-dropdown" class="collapse">
+                    <li>
+                        <a href="products.php?source=add_product">Add Product</a>
+                    </li>
+                    <li>
+                        <a href="products.php">View Products</a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li>
                 <a href="categories.php">
                     <i class="fa fa-fw fa-wrench"></i> Categories
                 </a>

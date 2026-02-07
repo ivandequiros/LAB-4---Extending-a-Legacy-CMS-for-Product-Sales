@@ -1,4 +1,4 @@
-DROP TABLE products IF EXISTS;
+
 CREATE TABLE products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
