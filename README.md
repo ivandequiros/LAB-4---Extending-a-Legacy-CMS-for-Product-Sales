@@ -1,10 +1,10 @@
-# Content Management System PHP & MySQL
+# LAB 4 - Extending a Legacy CMS for Product Sales
 
-This GitHub repository is a powerful content management system (CMS) that has been designed using PHP and MySQL. The frontend of the project has been crafted using Bootstrap, and it includes a wide range of advanced features, such as CRUD operations for user, post, and comment management, as well as an admin dashboard that provides users with complete control over their website.
+This GitHub repository features a specialized extension of a legacy Content Management System (CMS) designed using PHP and MySQL. While the frontend is crafted using Bootstrap, this project specifically introduces a functional e-commerce module, including a shopping cart and checkout system.
 
-One of the key highlights of this CMS is its login and registration system, which enables website owners to create secure, personalized login experiences for their users. The CMS has also been designed with scalability and efficiency in mind, ensuring that it can handle large volumes of content and traffic without any performance issues.
+One of the key highlights of this lab is the integration of the Mailtrap API to provide automated email confirmations for customer orders. The system has been extended with new database relationships in the `orders` and `order_items` tables to handle product sales efficiently.
 
-Overall, this CMS is an ideal solution for website owners who are looking for a user-friendly, flexible, and scalable content management system that can be customized to their specific needs. Whether you're managing a small blog or a large corporate website, this CMS has everything you need to create, edit, and manage content with ease.
+Overall, this CMS demonstrates the ability to scale a legacy monolithic application by adding modern e-commerce features and automated communication services.
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://raw.githubusercontent.com/OSBensaid/Content-Management-System-PHP-MySQL/main/screenshoots/Screenshot_24.png)
 
@@ -14,4 +14,25 @@ Overall, this CMS is an ideal solution for website owners who are looking for a 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://raw.githubusercontent.com/OSBensaid/Content-Management-System-PHP-MySQL/main/screenshoots/Screenshot_26.png)
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://raw.githubusercontent.com/OSBensaid/Content-Management-System-PHP-MySQL/main/screenshoots/Screenshot_23.png)
+
+
+
+![Admin Dashboard](https://raw.githubusercontent.com/ivandequiros/LAB-4---Extending-a-Legacy-CMS-for-Product-Sales/main/screenshoots/admin_dashboard.png)
+
+![Shop Page](https://raw.githubusercontent.com/ivandequiros/LAB-4---Extending-a-Legacy-CMS-for-Product-Sales/main/screenshoots/orders.png)
+
+![Admin Dashboard](https://raw.githubusercontent.com/ivandequiros/LAB-4---Extending-a-Legacy-CMS-for-Product-Sales/main/screenshoots/add_product.png)
+
+![Admin Dashboard](https://raw.githubusercontent.com/ivandequiros/LAB-4---Extending-a-Legacy-CMS-for-Product-Sales/main/screenshoots/view_products.png)
+
+![Admin Dashboard](https://raw.githubusercontent.com/ivandequiros/LAB-4---Extending-a-Legacy-CMS-for-Product-Sales/main/screenshoots/shop.png)
+
+![Admin Dashboard](https://raw.githubusercontent.com/ivandequiros/LAB-4---Extending-a-Legacy-CMS-for-Product-Sales/main/screenshoots/view_cart.png)
+
+![Order Confirmation](https://raw.githubusercontent.com/ivandequiros/LAB-4---Extending-a-Legacy-CMS-for-Product-Sales/main/screenshoots/order_complete.png)
+
+
+
+
+
 
